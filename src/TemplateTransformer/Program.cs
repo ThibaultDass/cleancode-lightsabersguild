@@ -9,6 +9,8 @@ namespace TemplateTransformer
 	{
 		public static void Main (string[] args)
 		{
+            /*Utiliser la technique du golden master*/
+
 			//check that data input is valid if command is CHECK
 			if (args [0] == "check") {
 				var lines = File.ReadAllLines (args [1]);
